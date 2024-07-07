@@ -1,38 +1,118 @@
-.App {
+#edit-section {
+  background-color: white;
+  padding: 10px;
+}
+
+#first-layout ul {
+  list-style-type: none;
+  display: flex;
+
+  color: black;
+
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+}
+
+#first-layout h1 {
+  font-size: 3rem;
   text-align: center;
+  margin-top: 0px; /* Adjust margin to position below navigation */
+  color: rgb(17, 15, 12);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#first-layout img{
+  display: block; /* Make the image a block-level element */
+  margin: 50px auto 0px; /* Center the image horizontally with some top margin */
+  opacity: .9;
+  width: 60%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#first-layout button {
+  display: block; /* Make the button a block-level element */
+  margin: 20px auto; /* Center the button horizontally with some top margin */
+  font-size: 1.5rem;
+  width: 180px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(17, 15, 12);
+  color: white;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-1 {
+  background-color: lightgray; /* Example background color */
+  padding: 20px;
+  margin: 30px auto; /* Center the container horizontally */
+  text-align: center;
+
+}
+
+.container-1  p{
+  font-size: 1.1rem;
+}
+
+.container-1  img{
+  background-color: white;
+  padding: 10px;
+
+}
+.container-1 button{
+  color: black !important;
+  background-color: rgb(233, 236, 238) !important;
+}
+
+.container-2 {
+  background-color: rgba(255, 171, 16, 0.801) !important;
+
+}
+
+.container-3{
+  text-align: center;
+  background-color: beige;
+  margin-top: 30px;
+}
+.container-3 div{
+  padding: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.container-4{
+  display: flex;
+  
+}
+footer{
+  background-color: lightblue !important;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer h4{
+  margin-bottom: 30px;
+}
+#edit-section{
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  gap: 15px;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+label{
+  margin-right: 8px;
 }
